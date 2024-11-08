@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 13px;
+}
+
+/*画面幅900px以上の追加指定*/
+@media screen and (min-width: 900px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro",
+    "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+  background: #fff;
+  color: #231816;
+  line-height: 2;
+}
+
+figure {
+  margin: 0;
+}
+dd {
+  margin: 0;
+}
+nav,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style: none;
+}
+section li {
+  margin-left: 1rem;
+}
+input {
+  font-size: 1rem;
+}
+
+/*table全般の設定*/
+table {
+  border-collapse: collapse;
+}
+
+/*画像全般の設定*/
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*iframeタグ*/
+iframe {
+  width: 100%;
+}
+
+/*sectionが続く場合*/
+section + section {
+  margin-top: var(--global-space);
+}
+
+/*リンク（全般）設定*/
+a {
+  color: #555;
+  transition: 0.3s;
+}
+a:hover {
+  color: var(--primary-color);
+}
+
+.margin {
+  display: block;
+  height: 60px;
+}

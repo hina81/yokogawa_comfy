@@ -1,0 +1,224 @@
+/* 画像 */
+
+.drink-image {
+  aspect-ratio: 4/3;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../assets/drink.JPEG);
+}
+.fimg {
+  aspect-ratio: 4/3;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* 肉 */
+.food-image1 {
+  background-image: url(../assets/food/niku.jpg);
+}
+/* 魚 */
+.food-image2 {
+  background-image: url(../assets/food/sakana.jpg);
+}
+/* 小鉢 */
+.food-image3 {
+  background-image: url(../assets/food/simesaba.jpg);
+}
+/* サラダ */
+.food-image4 {
+  background-image: url(../assets/food/potesara.JPEG);
+}
+/* おつまみ */
+.food-image5 {
+  background-image: url(../assets/food/re-zun.jpg);
+}
+/* たまご */
+.food-image6 {
+  background-image: url(../assets/food/tamago.jpg);
+}
+/* 揚げ物 */
+.food-image7 {
+  background-image: url(../assets/food/potato.jpg);
+}
+/* ごはん */
+.food-image8 {
+  background-image: url(../assets/food/onigiri.jpg);
+}
+/* デザート */
+/* .food-image9 {
+  background-image: url(../assets/food/food8.JPEG);
+} */
+
+/* 画像終わり */
+
+.menu {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course-list {
+  background-color: #fff;
+}
+.course-image {
+  background-color: #f5f5f5;
+  aspect-ratio: 4/3;
+  width: 100%;
+}
+
+#menu1 .course-list {
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#menu1 h3 {
+  text-align: center;
+  position: relative;
+}
+
+#menu1 h3:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #8c6239;
+  margin-bottom: 10px;
+}
+
+#menu1 p {
+  font-size: 1rem;
+  color: #231816;
+  margin-bottom: 15px;
+}
+.course-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.course-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+.course-list li:last-child {
+  border-bottom: none;
+}
+#menu1 ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#menu1 strong {
+  color: #e74c3c;
+}
+
+.label {
+  background-color: #ddd;
+  color: #333;
+  font-size: 0.8em;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+/* メニューカテゴリ */
+.menu-category {
+  margin-bottom: 2em;
+}
+
+.menu-category h3 {
+  text-align: center;
+  position: relative;
+}
+
+.menu-category h3:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #8c6239;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.menu-item dt {
+  font-weight: bold;
+  color: #555;
+}
+.menu-item dd {
+  font-weight: bold;
+  color: #231816;
+}
+
+.note {
+  display: block;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* ここから下ボタン */
+.btn002-04 {
+  width: 100%;
+  max-width: 180px;
+  height: 60px;
+  padding: 0 25px 0 10px;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 9999px;
+  color: #9f8f83;
+  background-color: #fff;
+  border: 1px solid #b7aca4;
+  transition: all 0.3s ease;
+}
+.btn002-04 .arrow {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  background-color: #b7aca4;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.btn002-04 .arrow span {
+  position: relative;
+  right: 2px;
+  width: 16px;
+  height: 6px;
+  border-bottom: 1px solid #fff;
+  border-right: 2px solid #fff;
+  transform: skew(45deg);
+  transition: all 0.35 ease;
+}
+.btn002-04:hover {
+  color: #fff;
+  background-color: #b7aca4;
+}
+.btn002-04:hover .arrow {
+  background-color: #fff;
+}
+.btn002-04:hover .arrow span {
+  border-color: #9f8f83;
+}
+
+.img-info {
+  font-size: 0.8em;
+  margin-top: 0;
+}

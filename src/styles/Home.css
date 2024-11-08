@@ -1,0 +1,132 @@
+.home * {
+  min-width: 0;
+}
+
+.concept {
+  padding: 50px 0 30px 0;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2.5em;
+}
+.main-visual {
+  height: 100vh;
+  background-image: url(../assets/IMG_9490.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.news {
+  width: 90%;
+  margin: 0 auto;
+}
+.new {
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+.new dt {
+  padding: 1rem 1rem 0;
+}
+.new dd {
+  padding: 1rem;
+}
+.new dd:last-child {
+  border-bottom: none;
+}
+
+.new dt span {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.8;
+  border-radius: 3px;
+  padding: 0 0.5rem;
+  width: 8rem;
+  transform: scale(0.8);
+  background: #fff;
+  color: #777;
+  border: 1px solid #999;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  position: relative;
+  font-weight: normal;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #8c6239;
+  /* border-bottom: 1px solid #231816; */
+}
+.sub-title {
+  padding-left: 2em;
+  font-size: 12px;
+}
+
+.info span {
+  padding-left: 20px;
+  font-size: 0.9em;
+}
+
+.btn {
+  width: 100%;
+  max-width: 220px;
+  height: 60px;
+  padding: 0 25px 0 10px;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 9999px;
+  color: #8c6239;
+  background-color: #fff;
+  border: 1px solid #8c6239;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.btn .arrow {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  background-color: #8c6239;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.btn .arrow span {
+  position: relative;
+  right: 2px;
+  width: 16px;
+  height: 6px;
+  border-bottom: 1px solid #fff;
+  border-right: 2px solid #fff;
+  transform: skew(45deg);
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #8c6239;
+}
+.btn:hover .arrow {
+  background-color: #fff;
+}
+.btn:hover .arrow span {
+  background-color: #fff;
+  border-bottom: 1px solid #8c6239;
+  border-right: 2px solid #8c6239;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 0 35px 0 10px;
+  }
+  .concept {
+    width: 90%;
+  }
+}
